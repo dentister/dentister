@@ -17,6 +17,13 @@ and my friends use.
 - PostgreSQL + Liquibase, Redis for game state, OpenAPI-first REST API,
   Testcontainers, Docker, GitHub Actions CI/CD
 
+## Try it
+The learning bot is live on Telegram: **[@GermanCardsBot](https://t.me/GermanCardsBot)**.
+Choose your CEFR level (A1–C2) with `/setlevel` and practice German words.
+After a round you can opt in to the AI blitz: Gemini writes three short
+Russian sentences from the words you just practiced, you translate them into
+German, and the AI checks your answers and gives feedback.
+
 ## Tech
 Java, Kotlin, Spring Boot, Spring AI, Hibernate/JPA, PostgreSQL, Redis,
 Docker, AWS, GitLab CI/CD, GitHub Actions
